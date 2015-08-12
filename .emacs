@@ -303,7 +303,7 @@
 
 ;; Allows me to use C-c LEFT to undo window configuration changes.
 (use-package winner
-  :idle (winner-mode 1))
+  :config (winner-mode 1))
 
 (use-package smooth-scrolling
   :config
@@ -356,15 +356,16 @@
          (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
          (add-to-list 'company-backends 'company-irony)))
 
-(use-package company-anaconda
-  :config
-  (progn (use-package company
-           :init
-           (global-company-mode)
-           (company-statistics-mode))
-         (add-to-list 'company-backends 'company-anaconda)
-         (add-hook 'python-mode-hook 'anaconda-mode))
-  :diminish (anaconda-mode))
+;; (use-package company-anaconda
+;;   :defer t
+;;   :init
+;;   (progn (use-package company
+;;            :init
+;;            (global-company-mode)
+;;            (company-statistics-mode))
+;;          (add-to-list 'company-backends 'company-anaconda)
+;;          (add-hook 'python-mode-hook 'anaconda-mode))
+;;   :diminish (anaconda-mode))
 
 ;; (use-package company-cmake
 ;;   :config

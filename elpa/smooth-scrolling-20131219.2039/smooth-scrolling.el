@@ -7,8 +7,8 @@
 ;; Author: Adam Spiers <emacs-ss@adamspiers.org>, Jeremy Bondeson <jbondeson@gmail.com>
 ;; Maintainer: Adam Spiers <emacs-ss@adamspiers.org>
 ;; URL: http://github.com/aspiers/smooth-scrolling/
-;; Version: 20131219.2039
-;; X-Original-Version: 1.0.4
+;; Package-Version: 20131219.2039
+;; Version: 1.0.4
 ;; Keywords: convenience
 ;; GitHub: http://github.com/aspiers/smooth-scrolling/
 
