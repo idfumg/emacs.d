@@ -1,0 +1,1 @@
+/home/idfumg/.emacs.d/irony/build/src/CMakeFiles/irony-server.dir
